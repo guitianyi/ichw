@@ -10,7 +10,7 @@ def oval(t,n):
         t.left(360/100)
         angle1=m*h/50
         angel2=(m+1)*h/50
-        f=distance(r*(math.sin(angle1)),r*0.75*(math.cos(angle1)),r*(math.sin(angle2)),r*0.75*(math.cos(angle2)))
+        f=distance(r*(math.sin(angle1)),r*1.25*(math.cos(angle1)),r*(math.sin(angle2)),r*1.25*(math.cos(angle2)))
         t.forward(f)
 wn=turtle.Screen()
 colors=['blue','green','red','black','brown','sea green']
