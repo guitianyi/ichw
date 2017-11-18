@@ -9,7 +9,7 @@ def oval(t,n):
     for m in range(100):
         t.left(360/100)
         angle1=m*h/50
-        angel2=(m+1)*h/50
+        angle2=(m+1)*h/50
         f=distance(r*(math.sin(angle1)),r*(1+r/500)*(math.cos(angle1)),r*(math.sin(angle2)),r*(1+r/500)*(math.cos(angle2)))
         t.forward(f)
 wn=turtle.Screen()
