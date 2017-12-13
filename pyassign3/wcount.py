@@ -27,7 +27,7 @@ def wcount(lines, topn=10):
     numbers.reverse()
     n=0
     m=0
-    while n <=9 and n<=len(numbers):
+    while n <=9 and n<=len(numbers)-1:
         for i in counts.keys():
             if counts[i]==numbers[n] and m<=9:
                 print('%-10s'%i,counts[i])
