@@ -17,6 +17,7 @@ def wcount(lines, topn=10):
     counts={}
     for x in range(64):
         lines=lines.replace(chr(x),' ')
+    lines=lines.lower()
     words=lines.split()
     for l in words:
         counts[l]=counts.get(l,0)+1
